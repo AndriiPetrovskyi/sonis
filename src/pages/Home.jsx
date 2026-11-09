@@ -56,7 +56,6 @@ export default function Home() {
         }}>
           {sections.map((s) => (
             <Link key={s.to} to={s.to} className="glass home-card">
-              <span className="kicker">{s.n}</span>
               <span style={{ fontFamily: 'var(--font-display)', fontSize: 'clamp(22px, 2.2vw, 28px)', fontWeight: 600, color: '#fff', lineHeight: 1.1 }}>
                 {s.title}
               </span>

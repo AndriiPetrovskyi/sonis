@@ -16,7 +16,7 @@ export default function PageHero({ section, title, children }) {
       )}
 
       <div className="shell" style={{ position: 'relative', width: '100%', display: 'flex', flexDirection: 'column', gap: 18 }}>
-        <div className="kicker">{section.n} · {title ? section.title : 'Розділ'}</div>
+        <div className="kicker">{title ? section.title : 'Розділ'}</div>
         <h1 className="h2">{title || section.title}</h1>
         {children}
       </div>

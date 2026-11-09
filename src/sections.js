@@ -1,13 +1,18 @@
 export const sections = [
   {
+    to: "/cement",
+    title: "Цемент",
+    text: "Цемент для будівництва та ремонту",
+    image: "/images/cement.jpg",
+    imagePosition: "62% 35%",
+  },
+  {
     to: "/containers",
-    n: "01",
     title: "Контейнерні будиночки",
     text: "Модульні будинки під ключ: житло, офіс, пост охорони, глемпінг",
   },
   {
     to: "/gypsum",
-    n: "02",
     title: "Гіпс та гіпсокартон",
     text: "Штукатурки, гіпс та гіпсокартон. Прайс-лист",
     heroTitle: "Гіпсокартон і суміші — завжди в наявності на складі",
@@ -15,16 +20,7 @@ export const sections = [
     imagePosition: "50% 55%",
   },
   {
-    to: "/cement",
-    n: "03",
-    title: "Цемент",
-    text: "Цемент для будівництва та ремонту",
-    image: "/images/cement.jpg",
-    imagePosition: "62% 35%",
-  },
-  {
     to: "/concrete",
-    n: "04",
     title: "Бетон та залізобетонні вироби",
     text: "Бетони. Залізобетонні вироби для будівництва",
   },

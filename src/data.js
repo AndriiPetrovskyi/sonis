@@ -55,12 +55,5 @@ export const heroStats = [
 
 export const terms = [
   { label: 'Виготовлення', value: 'до 15 днів', note: 'Якщо моделі немає в наявності' },
-  { label: 'Доставка', value: '5–7 днів', note: 'Від моменту готовності' },
-];
-
-export const contacts = [
-  { label: 'Компанія', value: '[Назва компанії]' },
-  { label: 'Телефон', value: '[+380 __ ___ __ __]' },
-  { label: 'Сайт', value: '[website.com]' },
-  { label: 'Соцмережі', value: '[Instagram / Telegram]' },
+  { label: 'Доставка', value: 'до 15 діб', note: 'Від моменту готовності' },
 ];

@@ -49,7 +49,7 @@ export default function Prices() {
         <Reveal style={{ display: 'grid', gap: 'clamp(14px, 2vw, 20px)', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))' }}>
           <div className="glass" style={{ padding: '22px 24px', borderRadius: 18, borderLeft: '2px solid var(--accent)' }}>
             <p className="body" style={{ margin: 0, color: 'rgba(255,255,255,0.8)' }}>
-              Усі моделі: оцинкована стальна конструкція, теплозвукоізоляція, кольори панелей — білий, антрацит або під дерево, швидкий монтаж. Включено підготовку під кондиціонер (окрім MK08).
+              Усі моделі: оцинкована стальна конструкція, теплозвукоізоляція, кольори панелей — білий, антрацит або під дерево, швидкий монтаж. Включено підготовку під кондиціонер.
             </p>
           </div>
           {terms.map((t) => (
